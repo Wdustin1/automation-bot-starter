@@ -1,0 +1,20 @@
+{
+  "name": "automation-bot-starter",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Telegram bot starter template (TypeScript + Telegraf)",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
